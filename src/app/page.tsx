@@ -7,12 +7,12 @@ import Reviewbelow from '../app/components/reviewbelow';
 import Blog from '../app/components/blog';
 import Contact from '../app/components/contact';
 import Footer from '../app/components/footer';
-import Mobile from '../app/components/mobilenav';
+
 
 export default function Home() {
   return (
     <>
-       <Navbar />
+      <Navbar />
       <Homesection />
       <Works />
       <Explore />
@@ -20,8 +20,7 @@ export default function Home() {
       <Reviewbelow />
       <Blog />
       <Contact />
-      <Footer /> *
-      
+      <Footer /> 
     </>
   );
 }
